@@ -1,0 +1,37 @@
+.banner{
+    /* width: 100%;   */
+    background-image: url("/public/images/books1.jpg");  
+    background-color: rgb(1, 110, 28);
+    height: 540px;
+    background-size: cover;
+    justify-content: flex-end;
+}
+
+
+.banner_detail{
+   float:right;
+   width: 500px;
+   height: 530px;
+}
+
+.banner_title{
+   float: left;
+    color: rgb(240, 232, 232);
+    font-weight: bold;
+    font-size: 3.8rem;
+    padding-top: 98px;
+}
+
+.banner_data{
+    width: 284px;
+    right: 215px;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+
+.banner_show{
+    float:right;
+   width: 700px;
+   height: 530px;
+   padding: 15px;
+}

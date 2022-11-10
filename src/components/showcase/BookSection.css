@@ -1,0 +1,39 @@
+.book_section {
+    background-color: aqua;
+}
+
+.rowp {
+    height: 300px;
+    padding: 10px;
+}
+
+.popular {
+    background-color: rgb(41, 38, 44);
+}
+.popular h2{
+    font-weight: bold;
+}
+
+.suggest {
+    background-color: rgb(63, 54, 43);
+
+}
+.suggest h2{
+    font-weight: bold;
+}
+
+.posters {
+    margin: 20px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster {
+    margin-right: 15px;
+    max-height: 200px;
+}
